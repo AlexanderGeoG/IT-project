@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
 }
 
 nav {
@@ -22,12 +22,15 @@ nav {
 
 .menu li {
     border-left: 2px solid orange;
-    padding: 0 20px;
-    text-align: center; 
+    padding: 0 20px; /* Add padding around list items */
+    text-align: center; /* Center the text horizontally */
 }
 
 .menu li:first-child {
-    border-left: none;
+    border-left: none; /* Remove the border on the first list item */
+}
+.menu li:last-child{
+    
 }
 
 
@@ -39,5 +42,7 @@ nav {
 }
 
 .menu li a:hover {
-    background-color: #ffc966;
+    background-color: #ffc966; /* Change background color on hover */
 }
+
+/*nav bar css*/
