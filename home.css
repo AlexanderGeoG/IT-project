@@ -2,8 +2,92 @@
 
 #instagrams a{
     text-decoration: none;
+    display: block;   
 }
 
 #instagrams li{
     list-style: none;
+    
+}
+
+
+
+#tshirts{
+    background-color:aqua;
+    min-height:150px;
+    border-radius:3px;
+}
+
+#TshirtImg{
+    max-height: 180px;
+    padding:10px;
+    float:left;
+}
+
+#text1{
+    overflow:right;
+    padding:5%;
+    padding-left:50%;
+    color:white;
+    font-size:1.25em;
+}
+
+#pants{
+    background-color:aqua;
+    min-height:150px;
+    border-radius:3px;
+}
+
+#PantsImg{
+    max-height: 180px;
+    padding:10px;
+    float:left;
+}
+
+#text2{
+    overflow:right;
+    padding:5%;
+    padding-left:50%;
+    color:white;
+    font-size:1.25em;
+}
+
+#sunglasses{
+    background-color:aqua;
+    min-height:150px;
+    border-radius:3px;
+}
+
+#SunglassesImg{
+    max-height: 180px;
+    padding:10px;
+    float:left;
+}
+
+#text3{
+    overflow:right;
+    padding:5%;
+    padding-left:50%;
+    color:white;
+    font-size:1.25em;
+}
+
+#shoes{
+    background-color:aqua;
+    min-height:150px;
+    border-radius:3px;
+}
+
+#ShoesImg{
+    max-height: 180px;
+    padding:10px;
+    float:left;
+}
+
+#text4{
+    overflow:right;
+    padding:5%;
+    padding-left:50%;
+    color:white;
+    font-size:1.25em;
 }
