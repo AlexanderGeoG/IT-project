@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif; /* Set a default font */
+    font-family: Arial, sans-serif; 
 }
 
 nav {
     background-color: #ffdfa4;
-    padding: 10px 0; /* Add padding to the top and bottom of the nav */
+    padding: 10px 0; 
 }
 
 #container {
     max-width: 900px;
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto; 
 }
 
 .menu {
@@ -22,12 +22,12 @@ nav {
 
 .menu li {
     border-left: 2px solid orange;
-    padding: 0 20px; /* Add padding around list items */
-    text-align: center; /* Center the text horizontally */
+    padding: 0 20px; 
+    text-align: center; 
 }
 
 .menu li:first-child {
-    border-left: none; /* Remove the border on the first list item */
+    border-left: none; 
 }
 .menu li:last-child{
     
@@ -41,5 +41,7 @@ nav {
 }
 
 .menu li a:hover {
-    background-color: #ffc966; /* Change background color on hover */
+    background-color: #ffc966; 
 }
+
+/*nav bar css*/
