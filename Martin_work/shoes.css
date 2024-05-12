@@ -4,6 +4,8 @@
     border-radius: 4px;
     width: 31%;
     height: 70%;
+    margin-top: 44px;
+    margin-left: 1%;
 }
 
 #image_shoes_1 {
@@ -30,4 +32,50 @@
     position: absolute;
     margin-top: 65%;
     text-align: center;
+}
+
+/*navbar style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #ffdfa4;
+    padding: 10px 0; 
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.menu {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    border-left: 2px solid orange;
+    padding: 0 20px;
+    text-align: center; 
+}
+
+.menu li:first-child {
+    border-left: none;
+}
+
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(60, 7%, 3%);
+}
+
+.menu li a:hover {
+    background-color: #ffc966;
 }
