@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+nav {
+    background-color: #ffdfa4;
+    padding: 10px 0; /* Add padding to the top and bottom of the nav */
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.menu {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    border-left: 2px solid orange;
+    padding: 0 20px; /* Add padding around list items */
+    text-align: center; /* Center the text horizontally */
+}
+
+.menu li:first-child {
+    border-left: none; /* Remove the border on the first list item */
+}
+.menu li:last-child{
+    
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(60, 7%, 3%);
+}
+
+.menu li a:hover {
+    background-color: #ffc966; /* Change background color on hover */
+}
