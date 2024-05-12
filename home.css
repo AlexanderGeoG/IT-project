@@ -7,21 +7,24 @@
 
 #instagrams li{
     list-style: none;
-    
+    display: block;
 }
 
 
 
 #tshirts{
-    background-color:#ffc966;
-    min-height:150px;
-    border-radius:3px;
+    background-color:#ffdfa4;
+    min-height:250px;
+    border-radius:5px;
+    border:3px solid black;
+    margin:3%;
 }
 
 #TshirtImg{
-    max-height: 180px;
+    max-height: 248px;
     padding:10px;
     float:left;
+    padding:0px 5px 1px 5px;
 }
 
 #text1{
@@ -33,15 +36,20 @@
 }
 
 #pants{
-    background-color:#ffc966;
-    min-height:150px;
-    border-radius:3px;
+    background-color:#ffdfa4;
+    min-height:250px;
+    border-radius:5px;
+    border:3px solid black;
+    margin:3%;
+
 }
 
 #PantsImg{
-    max-height: 180px;
+    max-height: 248px;
     padding:10px;
     float:left;
+    padding:0px 5px 1px 5px;
+    margin:10px;
 }
 
 #text2{
@@ -53,15 +61,19 @@
 }
 
 #sunglasses{
-    background-color:#ffc966;
-    min-height:150px;
-    border-radius:3px;
+    background-color:#ffdfa4;
+    min-height:250px;
+    border-radius:5px;
+    border:3px solid black;
+    margin:3%;
 }
 
 #SunglassesImg{
-    max-height: 180px;
+    max-height: 248px;
     padding:10px;
     float:left;
+    padding:0px 5px 1px 5px;
+    margin:10px;
 }
 
 #text3{
@@ -73,15 +85,19 @@
 }
 
 #shoes{
-    background-color:#ffc966;
-    min-height:150px;
-    border-radius:3px;
+    background-color:#ffdfa4;
+    min-height:250px;
+    border-radius:5px;
+    border:3px solid black;
+    margin:3%;
 }
 
 #ShoesImg{
-    max-height: 180px;
-    padding:10px;
+    max-height: 248px;
     float:left;
+    margin:10px;
+    border-radius: 5px;
+    border:3px solid black;
 }
 
 #text4{
