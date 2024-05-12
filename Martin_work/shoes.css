@@ -52,10 +52,17 @@
     z-index: 2;
     position: absolute;
     width: 20%;
+    height: 10%;
     margin-top: 20%;
     margin-left: 83%;
 }
 
-#image_shoes_1:hover #right_arrow{
-    display: block;
+#left_arrow {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    margin-top: 20%;
+    margin-left: -3%;
 }
