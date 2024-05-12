@@ -22,16 +22,14 @@ nav {
 
 .menu li {
     border-left: 2px solid orange;
-    padding: 0 20px; /* Add padding around list items */
-    text-align: center; /* Center the text horizontally */
+    padding: 0 20px; 
+    text-align: center; 
 }
 
 .menu li:first-child {
-    border-left: none; /* Remove the border on the first list item */
+    border-left: none; 
 }
-.menu li:last-child{
-    
-}
+
 
 
 .menu li a {
@@ -42,7 +40,6 @@ nav {
 }
 
 .menu li a:hover {
-    background-color: #ffc966; /* Change background color on hover */
+    background-color: #ffc966;
 }
 
-/*nav bar css*/
