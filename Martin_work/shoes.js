@@ -33,6 +33,8 @@ function onLeftArrowClick1() {
     document.getElementById('image_shoes_1').src = shoes_images[currentImage];
 }
 
+
+
 //second offer
 
 
@@ -69,4 +71,43 @@ function onLeftArrowClick2() {
         currentImage2 = 2;
     }
     document.getElementById('image_shoes_2').src = shoes_images2[currentImage2];
+}
+
+
+
+//third offer
+
+let image_shoes_3 = document.getElementById('image_shoes_3');
+
+let right_arrow3 = document.getElementById('right_arrow3');
+
+let left_arrow3 = document.getElementById('left_arrow3');
+
+let shoes_images3 = ['../Images/shoes_31.jpg ', '../Images/shoes_32.jpg', '../Images/shoes_33.jpg'];
+let currentImage3 = 0;
+
+function hoverImage3() {
+    right_arrow3.style.display = 'block';
+    left_arrow3.style.display = 'block';
+}
+
+function unhoverImage3() {
+    right_arrow3.style.display = 'none';
+    left_arrow3.style.display = 'none';
+}
+
+function onRightArrowClick3() {
+    currentImage3++;
+    if(currentImage3 > 2) {
+        currentImage3 = 0;
+    }
+    document.getElementById('image_shoes_3').src = shoes_images3[currentImage3];
+}   
+
+function onLeftArrowClick3() {
+    currentImage3--;
+    if(currentImage3 < 0) {
+        currentImage3 = 2;
+    }
+    document.getElementById('image_shoes_3').src = shoes_images3[currentImage3];
 }
