@@ -1,4 +1,4 @@
-#shoes_offer1 {
+#sunglasses_offer1 {
     position: absolute;
     border: 2px solid black;
     border-radius: 4px;
@@ -8,7 +8,7 @@
     margin-left: 1%;
 }
 
-#image_shoes_1 {
+#image_sunglasses_1 {
     z-index: 1;
     position: absolute;
     width: 86%;
@@ -19,7 +19,7 @@
     background-color: antiquewhite;
 }
 
-#add_to_card_shoes_1 {
+#add_to_card_sunglasses_1 {
     position: absolute;
     font-size: 16px;
     width: 35%;
@@ -30,18 +30,19 @@
     color: white;
 }
 
-#add_to_card_shoes_1:hover {
+#add_to_card_sunglasses_1:hover {
     background-color: rgb(69, 69, 69);
 }
 
-#description_shoes_1 {
+#description_sunglasses_1 {
     position: absolute;
     margin-top: 60%;
     text-align: center;
     width: 95%;
+    padding-left: 10px;
 }
 
-#price_shoes_1 {
+#price_sunglasses_1 {
     position: absolute;
     margin-top: 95%;
     margin-left: 27%;   
