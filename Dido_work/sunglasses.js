@@ -32,15 +32,3 @@ function LeftArrow(){
     }
     document.getElementById("image_sunglasses_1").src = images[currentImage];
 }
-
-//adding the products array to local storage
-let cart = []
-
-function AddtoCart(){
-    product = image_sunglasses_1.alt;
-    cart.push(product);
-    localStorage.setItem('cart', JSON.stringify(cart));
-    let myh1 = document.createElement("h1");
-    myh1.textContent = "Added to cart";
-    document.body.appendChild(myh1);
-}

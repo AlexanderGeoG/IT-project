@@ -8,11 +8,22 @@ function displayCart() {
     } else {
         MyCart.textContent = 'Cart is empty';
     }
-}
+    let images = localStorage.getItem("images");
+    images = images ? JSON.parse(images) : [];
+    
+
+    for(let imageSrc of images){
+        let img = document.createElement("img");
+        img.src = imageSrc;
+        MyCart.appendChild(img);
+    }
+} 
+
 function ResetCart(){
     cart = [];
     localStorage.removeItem("cart");
-    MyCart.textContent = "Cart is empty";
+    localStorage.removeItem("images");
+    MyCart.innerHTML = '';
 }
 
 displayCart();

@@ -111,3 +111,9 @@ function onLeftArrowClick3() {
     }
     document.getElementById('image_shoes_3').src = shoes_images3[currentImage3];
 }
+
+//adding products to the cart
+
+function AddProduct(){
+    
+}
