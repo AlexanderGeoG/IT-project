@@ -48,7 +48,7 @@
     margin-left: 27%;   
 }
 
-#right_arrow {
+#right_arrow1 {
     display: none;
     z-index: 2;
     position: absolute;
@@ -58,7 +58,7 @@
     margin-left: 83%;
 }
 
-#left_arrow {
+#left_arrow1 {
     display: none;
     z-index: 2;
     position: absolute;
@@ -119,7 +119,7 @@
     margin-left: 27%;   
 }
 
-#right_arrow {
+#right_arrow2 {
     display: none;
     z-index: 2;
     position: absolute;
@@ -129,7 +129,7 @@
     margin-left: 83%;
 }
 
-#left_arrow {
+#left_arrow2 {
     display: none;
     z-index: 2;
     position: absolute;
