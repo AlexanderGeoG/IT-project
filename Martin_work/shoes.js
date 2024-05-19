@@ -84,6 +84,7 @@ let right_arrow3 = document.getElementById('right_arrow3');
 let left_arrow3 = document.getElementById('left_arrow3');
 
 let shoes_images3 = ['../Images/shoes_31.jpg ', '../Images/shoes_32.jpg', '../Images/shoes_33.jpg'];
+let shoes_color3 = ['Green', 'White', 'Dark'];
 let currentImage3 = 0;
 
 function hoverImage3() {
@@ -102,6 +103,9 @@ function onRightArrowClick3() {
         currentImage3 = 0;
     }
     document.getElementById('image_shoes_3').src = shoes_images3[currentImage3];
+    let currentAlt = 'Nike Air Max';
+    document.getElementById('image_shoes_3').setAttribute('alt', currentAlt + ' ' + shoes_color3[currentImage3]);
+    
 }   
 
 function onLeftArrowClick3() {
