@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "tshirts.css">
+    <link rel = "stylesheet" href = "../Dido_work/navbar.css">
+    <title>Tshirts</title>
+</head>
+<body>
+    <nav>
+        <div id="container">
+            <ul class="menu">
+                <li id="Home"><a href="../home.html">Home</a></li>
+                <li id="tshirts.html"><a href="tshirts.html">T-Shirts</a></li>
+                <li id="trousers.html"><a href="trousers.html">Trousers</a></li>
+                <li id="tshirts.html"><a href="../Martin_work/shoes.html">Shoes</a></li>
+                <li id="tshirts.html"><a href="../Dido_work/sunglasses.html">Sunglasses</a></li>
+                <li id="tshirts.html"><a href="../Dido_work/cart.html">Shopping Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id = "tshirt_offer1">
+        <img id = "right_arrow" src = "../right_arrow.png" onmouseover = 'hoverImage1()' onmouseout= 'unhoverImage1()' onclick = 'onRightArrowClick1()'>
+        <img id = "left_arrow" src = "../left_arrow.png" onmouseover = 'hoverImage1()' onmouseout= 'unhoverImage1()' onclick = 'onLeftArrowClick1()'>
+        <img id = "image_tshirt_1" src = "../Images/puma_image2-removebg-preview.png" onmouseover = 'hoverImage1()' onmouseout= 'unhoverImage1()' alt = "Puma tshirt image" mouse>
+        <h3 id = "description_tshirt_1">Sports shirt Puma</h3>
+        <h2 id = "price_tshirt_1">$9.99</h2>
+        <button onclick="AddtoCart(image_tshirt_1, 'price_tshirt_1')" id = "add_to_card_tshirt_1">Add to cart</button>
+    </div>
+
+
+
+    <div id = "tshirt_offer2">
+        <img id = "right_arrow2" src = "../right_arrow.png" onmouseover = 'hoverImage2()' onmouseout= 'unhoverImage2()' onclick = 'onRightArrowClick2()'>
+        <img id = "left_arrow2" src = "../left_arrow.png" onmouseover = 'hoverImage2()' onmouseout= 'unhoverImage2()' onclick = 'onLeftArrowClick2()'>
+        <img id = "image_tshirt_2" src = "../Images/nike_image1-removebg-preview.png" onmouseover = 'hoverImage2()' onmouseout= 'unhoverImage2()' alt = "Nike tshirt image" mouse>
+        <h3 id = "description_tshirt_2">
+            Nike!!!
+        </h3>
+        <h2 id = "price_tshirt_2">$19.99</h2>
+        <button onclick="AddtoCart(image_tshirt_2, 'price_tshirt_2')" id = "add_to_card_tshirt_2">Add to cart</button>
+    </div>
+
+
+    <div id = "tshirt_offer3">
+        <img id = "right_arrow3" src = "../right_arrow.png" onmouseover = 'hoverImage3()' onmouseout= 'unhoverImage3()' onclick = 'onRightArrowClick3()'>
+        <img id = "left_arrow3" src = "../left_arrow.png" onmouseover = 'hoverImage3()' onmouseout= 'unhoverImage3()' onclick = 'onLeftArrowClick3()'>
+        <img id = "image_tshirt_3" src = "../Images/wolf_image1-removebg-preview.png" onmouseover = 'hoverImage3()' onmouseout= 'unhoverImage3()' alt = "Sad wolf " mouse>
+        <h3 id = "description_tshirt_3">
+            For broken sigmas and lone wolfs
+        </h3>
+        <h2 id = "price_tshirt_3">$71.95</h2>
+        <button onclick="AddtoCart(image_shoes_3, 'price_tshirt_3')" id = "add_to_card_tshirt_3">Add to cart</button>
+    </div>
+
+
+    <script src = 'tshirts.js'></script>
+    <script src="../Dido_work/function_addToCart.js"></script>
+</body>
+</html>

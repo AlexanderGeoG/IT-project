@@ -22,9 +22,10 @@
 
 #TshirtImg{
     max-height: 248px;
-    padding:10px;
     float:left;
-    padding:0px 5px 1px 5px;
+    margin:10px;
+    border-radius: 5px;
+    border:3px solid black;
 }
 
 #text1{
@@ -46,10 +47,10 @@
 
 #PantsImg{
     max-height: 248px;
-    padding:10px;
     float:left;
-    padding:0px 5px 1px 5px;
     margin:10px;
+    border-radius: 5px;
+    border:3px solid black;
 }
 
 #text2{
@@ -70,10 +71,10 @@
 
 #SunglassesImg{
     max-height: 248px;
-    padding:10px;
     float:left;
-    padding:0px 5px 1px 5px;
     margin:10px;
+    border-radius: 5px;
+    border:3px solid black;
 }
 
 #text3{
