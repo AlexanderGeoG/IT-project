@@ -31,7 +31,7 @@ function displayCart() {
 
                 MyCart.appendChild(cartItem);
             }
-            // Call the function to calculate and display the total price
+            
             calculateTotalPrice(cart);
         } else {
             MyCart.textContent = 'Cart is empty';
@@ -44,7 +44,7 @@ function displayCart() {
 function calculateTotalPrice(cart) {
     let total = 0;
     for (let item of cart) {
-        // Assuming the price is a string like "$10.00", remove the "$" and convert it to a number
+        
         let price = parseFloat(item.price.replace('$', ''));
         total += price;
     }
