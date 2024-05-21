@@ -28,6 +28,7 @@
     margin-left: 50%;  
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tshirt_1:hover {
@@ -102,6 +103,7 @@
     margin-left: 50%; 
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tshirt_2:hover {
@@ -176,6 +178,7 @@
     margin-left: 50%;  
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tshirt_3:hover {
