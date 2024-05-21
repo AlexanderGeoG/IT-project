@@ -1,4 +1,4 @@
-let image_tr_1 = document.getElementById('image_tshirt_1');
+let image_tr_1 = document.getElementById('image_tr_1');
 
 let right_arrow = document.getElementById('right_arrow');
 
@@ -38,13 +38,13 @@ function onLeftArrowClick1() {
 //second offer
 
 
-let image_tr_2 = document.getElementById('image_tshirt_2');
+let image_tr_2 = document.getElementById('image_tr_2');
 
 let right_arrow2 = document.getElementById('right_arrow2');
 
 let left_arrow2 = document.getElementById('left_arrow2');
 
-let tr_images2 = ['../Images/qki_pantalonki1-removebg-preview', '../Images/qki_pantalonki2-removebg-preview', '../Images/nike_image3-removebg-preview.png', '../Images/nike_image4-removebg-preview.png', '../Images/nike_image5-removebg-preview.png', '../Images/nike_image6-removebg-preview.png', '../Images/nike_image7-removebg-preview.png', '../Images/nike_image8-removebg-preview.png', '../Images/nike_image9-removebg-preview.png', '../Images/nike_image10-removebg-preview.png', '../Images/nike_image11-removebg-preview.png', '../Images/nike_image12-removebg-preview.png'];
+let tr_images2 = ['../Images/trousers_21.jpg', '../Images/trousers_22.jpg', '../Images/trousers_23.jpg'];
 let currentImage2 = 0;
 
 function hoverImage2() {
@@ -59,7 +59,7 @@ function unhoverImage2() {
 
 function onRightArrowClick2() {
     currentImage2++;
-    if(currentImage2 > 11) {
+    if(currentImage2 > 2) {
         currentImage2 = 0;
     }
     document.getElementById('image_tr_2').src = tr_images2[currentImage2];
@@ -83,7 +83,7 @@ let right_arrow3 = document.getElementById('right_arrow3');
 
 let left_arrow3 = document.getElementById('left_arrow3');
 
-let tr_images3 = ['../Images/wolf_image1-removebg-preview.png', '../Images/wolf_image2-removebg-preview.png', '../Images/wolf_image3-removebg-preview.png', '../Images/wolf_image4-removebg-preview.png', '../Images/wolf_image5-removebg-preview.png'];
+let tr_images3 = ['../Images/trousers_31.jpg', '../Images/trousers_32.jpg', '../Images/trousers_33.jpg'];
 let currentImage3 = 0;
 
 function hoverImage3() {
@@ -98,7 +98,7 @@ function unhoverImage3() {
 
 function onRightArrowClick3() {
     currentImage3++;
-    if(currentImage3 > 4) {
+    if(currentImage3 > 2) {
         currentImage3 = 0;
     }
     document.getElementById('image_tr_3').src = tr_images3[currentImage3];

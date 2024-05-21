@@ -28,6 +28,7 @@
     margin-left: 50%;  
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tr_1:hover {
@@ -36,7 +37,7 @@
 
 #description_tr_1 {
     position: absolute;
-    margin-top: 75%;
+    margin-top: 73%;
     text-align: center;
     width: 95%;
 }
@@ -86,7 +87,7 @@
     z-index: 1;
     position: absolute;
     width: 37%;
-    height: 45%;
+    height: 60%;
     padding-left: 31.5%;
     padding-right: 31.5%;
     border-radius: 4px;
@@ -102,6 +103,7 @@
     margin-left: 50%; 
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tr_2:hover {
@@ -110,7 +112,7 @@
 
 #description_tr_2 {
     position: absolute;
-    margin-top: 60%;
+    margin-top: 68%;
     text-align: center;
     width: 95%;
 }
@@ -160,9 +162,10 @@
 #image_tr_3 {
     z-index: 1;
     position: absolute;
-    height: 45%;
-    padding-left: 25.85%;
-    padding-right: 25.85%;
+    width: 37%;
+    height: 60%;
+    padding-left: 31.5%;
+    padding-right: 31.5%;
     border-radius: 4px;
     background-color: antiquewhite;
 }
@@ -176,6 +179,7 @@
     margin-left: 50%;  
     background-color: black;  
     color: white;
+    cursor: pointer;
 }
 
 #add_to_card_tr_3:hover {
@@ -184,7 +188,7 @@
 
 #description_tr_3 {
     position: absolute;
-    margin-top: 60%;
+    margin-top: 68%;
     text-align: center;
     width: 95%;
 }
