@@ -4,7 +4,7 @@ let right_arrow = document.getElementById('right_arrow');
 
 let left_arrow = document.getElementById('left_arrow');
 
-let trs_images = ['../Images/tr_images1-removebg-preview.png', '../Images/tr_images2-removebg-preview.png', '../Images/tr_images3-removebg-preview.png', '../Images/tr_images4-removebg-preview.png', '../Images/tr_images5-removebg-preview.png'];
+let trs_images = ['../Images/trousers_11.jpg', '../Images/trousers_12.jpg', '../Images/trousers_13.jpg'];
 let currentImage = 0;
 
 function hoverImage1() {
@@ -19,7 +19,7 @@ function unhoverImage1() {
 
 function onRightArrowClick1() {
     currentImage++;
-    if(currentImage > 4) {
+    if(currentImage > 2) {
         currentImage = 0;
     }
     document.getElementById('image_tr_1').src = trs_images[currentImage];
