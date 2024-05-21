@@ -151,3 +151,24 @@ nav {
 .menu li a:hover {
     background-color: #ffc966; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#secret{
+    float:left;
+    text-decoration: none;
+
+}
+
+#secret:hover{
+    background-color:#ffdfa4;
+}

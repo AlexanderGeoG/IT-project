@@ -1,0 +1,13 @@
+#container{
+    height:80%;
+    display:flex;
+}
+
+
+#Puma{
+    height: 300px;
+    align-self: center;
+    margin-left:40%;
+    margin-top:10%;
+    
+}
