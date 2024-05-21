@@ -4,7 +4,12 @@ function AddtoCart(product, priceId) {
     cart.push({name: product.alt, image: product.src, price: document.getElementById(priceId).textContent});
     localStorage.setItem('cart', JSON.stringify(cart));
 
+
     let myh1 = document.createElement("h1");
     myh1.textContent = "Added to cart";
     document.body.appendChild(myh1);
+
+    setTimeout(() => {
+        myh1.remove();
+    }, 3000)
 }
