@@ -134,7 +134,3 @@ function onLeftArrowClick3() {
     let currentAlt = "Men's Casual Drawstring Pants Regular Fit Elastic Waist Cotton Basic Straight Leg Cargo Pants";
     document.getElementById('image_tr_3').setAttribute('alt', currentAlt + ' ' + trs_color3[currentImage3]);
 }
-
-function AddProduct(){
-    
-}

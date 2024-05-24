@@ -12,6 +12,7 @@ function displayCart() {
 
                 let img = document.createElement('img');
                 img.src = item.image;
+                img.style.maxHeight = (1/2) * innerHeight + 'px';
                 cartItem.appendChild(img);
 
                 let details = document.createElement('div');

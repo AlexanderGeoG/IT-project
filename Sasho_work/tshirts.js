@@ -112,6 +112,3 @@ function onLeftArrowClick3() {
     document.getElementById('image_tshirt_3').src = tshirt_images3[currentImage3];
 }
 
-function AddProduct(){
-    
-}

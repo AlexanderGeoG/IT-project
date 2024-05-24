@@ -131,9 +131,3 @@ function onLeftArrowClick3() {
     let currentAlt = 'Nike Air Max';
     document.getElementById('image_shoes_3').setAttribute('alt', currentAlt + ' ' + shoes_color3[currentImage3]);
 }
-
-//adding products to the cart
-
-function AddProduct(){
-    
-}
