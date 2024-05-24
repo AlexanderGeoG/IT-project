@@ -4,7 +4,7 @@ let right_arrow = document.getElementById('right_arrow');
 
 let left_arrow = document.getElementById('left_arrow');
 
-let tshirts_images = ['../Images/puma_image2-removebg-preview.png', '../Images/puma_image3-removebg-preview.png', '../Images/puma_image6-removebg-preview.png'];
+let tshirts_images = ['../Images/puma_image1-removebg-preview.png', '../Images/puma_image2-removebg-preview.png', '../Images/puma_image3-removebg-preview.png', '../Images/puma_image4-removebg-preview.png', '../Images/puma_image5-removebg-preview.png', '../Images/puma_image6-removebg-preview.png'];
 let currentImage = 0;
 
 function hoverImage1() {
@@ -83,7 +83,7 @@ let right_arrow3 = document.getElementById('right_arrow3');
 
 let left_arrow3 = document.getElementById('left_arrow3');
 
-let tshirt_images3 = ['../Images/wolf_image1-removebg-preview.png', '../Images/wolf_image2-removebg-preview.png', '../Images/wolf_image3-removebg-preview.png', '../Images/wolf_image4-removebg-preview.png', '../Images/wolf_image5-removebg-preview.png'];
+let tshirt_images3 = ['../Images/jj_1.png', '../Images/jj_2.png', '../Images/jj_3.png', '../Images/jj_4.png', '../Images/jj_5.png', '../Images/jj_6.png'];
 let currentImage3 = 0;
 
 function hoverImage3() {

@@ -30,7 +30,7 @@
 
 #text1{
     overflow:right;
-    padding:5%;
+    padding:7.5%;
     padding-left:50%;
     color:white;
     font-size:1.25em;
@@ -55,7 +55,7 @@
 
 #text2{
     overflow:right;
-    padding:5%;
+    padding:7.5%;
     padding-left:50%;
     color:white;
     font-size:1.25em;
@@ -79,7 +79,7 @@
 
 #text3{
     overflow:right;
-    padding:5%;
+    padding:7.5%;
     padding-left:50%;
     color:white;
     font-size:1.25em;
@@ -103,7 +103,7 @@
 
 #text4{
     overflow:right;
-    padding:5%;
+    padding:7.5%;
     padding-left:50%;
     color:white;
     font-size:1.25em;
@@ -152,23 +152,3 @@ nav {
     background-color: #ffc966; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#secret{
-    float:left;
-    text-decoration: none;
-
-}
-
-#secret:hover{
-    background-color:#ffdfa4;
-}
