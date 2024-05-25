@@ -19,6 +19,7 @@ body {
 
 #MyCart {
     margin-top: 20px;
+    margin-left: 1%;
 }
 
 .cart-item {
@@ -52,3 +53,13 @@ body {
     color: #555;
 }
 
+#reset_cart_button {
+    font-size: 16px;
+    width: 11%;
+    height: 20%;
+    background-color: black;  
+    color: white;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 1%;
+}
