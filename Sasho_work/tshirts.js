@@ -98,6 +98,7 @@ let right_arrow3 = document.getElementById('right_arrow3');
 let left_arrow3 = document.getElementById('left_arrow3');
 
 let tshirt_images3 = ['../Images/jj_1.png', '../Images/jj_2.png', '../Images/jj_3.png', '../Images/jj_4.png', '../Images/jj_5.png', '../Images/jj_6.png'];
+let tshirts_colors3 = ['Black', 'Black and White', 'White', 'Grey', 'Light Orange'];
 let currentImage3 = 0;
 
 function hoverImage3() {
@@ -116,13 +117,19 @@ function onRightArrowClick3() {
         currentImage3 = 0;
     }
     document.getElementById('image_tshirt_3').src = tshirt_images3[currentImage3];
+
+    let currentAlt = "Jack & Jones T-Shirt";
+    document.getElementById('image_tshirt_3').setAttribute('alt', currentAlt + ' ' + tshirts_colors3[currentImage3]);
 }   
 
 function onLeftArrowClick3() {
     currentImage3--;
     if(currentImage3 < 0) {
-        currentImage3 = 2;
+        currentImage3 = 4;
     }
     document.getElementById('image_tshirt_3').src = tshirt_images3[currentImage3];
+
+    let currentAlt = "Jack & Jones T-Shirt";
+    document.getElementById('image_tshirt_3').setAttribute('alt', currentAlt + ' ' + tshirts_colors3[currentImage3]);
 }
 
