@@ -5,7 +5,8 @@ let right_arrow = document.getElementById('right_arrow');
 let left_arrow = document.getElementById('left_arrow');
 
 let tshirts_images = ['../Images/puma_image1-removebg-preview.png', '../Images/puma_image2-removebg-preview.png', '../Images/puma_image3-removebg-preview.png', '../Images/puma_image4-removebg-preview.png', '../Images/puma_image5-removebg-preview.png', '../Images/puma_image6-removebg-preview.png'];
-let currentImage = 0;
+let tshirts_colors1 = ['Black', 'Dark Blue', 'Brown'];
+let currentImage1 = 0;
 
 function hoverImage1() {
     right_arrow.style.display = 'block';
@@ -18,19 +19,25 @@ function unhoverImage1() {
 }
 
 function onRightArrowClick1() {
-    currentImage++;
-    if(currentImage > 2) {
-        currentImage = 0;
+    currentImage1++;
+    if(currentImage1 > 2) {
+        currentImage1 = 0;
     }
-    document.getElementById('image_tshirt_1').src = tshirts_images[currentImage];
+    document.getElementById('image_tshirt_1').src = tshirts_images[currentImage1];
+
+    let currentAlt = "Puma T-Shirt";
+    document.getElementById('image_tshirt_1').setAttribute('alt', currentAlt + ' ' + tshirts_colors1[currentImage1]);
 }   
 
 function onLeftArrowClick1() {
-    currentImage--;
-    if(currentImage < 0) {
-        currentImage = 2;
+    currentImage1--;
+    if(currentImage1 < 0) {
+        currentImage1 = 2;
     }
-    document.getElementById('image_tshirt_1').src = tshirts_images[currentImage];
+    document.getElementById('image_tshirt_1').src = tshirts_images[currentImage1];
+
+    let currentAlt = "Puma T-Shirt";
+    document.getElementById('image_tshirt_1').setAttribute('alt', currentAlt + ' ' + tshirts_colors1[currentImage1]);    
 }
 
 
@@ -44,7 +51,8 @@ let right_arrow2 = document.getElementById('right_arrow2');
 
 let left_arrow2 = document.getElementById('left_arrow2');
 
-let tshirt_images2 = ['../Images/nike_image1-removebg-preview.png', '../Images/nike_image2-removebg-preview.png', '../Images/nike_image3-removebg-preview.png', '../Images/nike_image4-removebg-preview.png', '../Images/nike_image5-removebg-preview.png', '../Images/nike_image6-removebg-preview.png', '../Images/nike_image7-removebg-preview.png', '../Images/nike_image8-removebg-preview.png', '../Images/nike_image9-removebg-preview.png', '../Images/nike_image10-removebg-preview.png', '../Images/nike_image11-removebg-preview.png', '../Images/nike_image12-removebg-preview.png'];
+let tshirt_images2 = ['../Images/nike_image2-removebg-preview.png', '../Images/nike_image3-removebg-preview.png', '../Images/nike_image4-removebg-preview.png', '../Images/nike_image5-removebg-preview.png', '../Images/nike_image6-removebg-preview.png', '../Images/nike_image7-removebg-preview.png', '../Images/nike_image9-removebg-preview.png', '../Images/nike_image10-removebg-preview.png', '../Images/nike_image11-removebg-preview.png', '../Images/nike_image12-removebg-preview.png'];
+let tshirts_colors2 = ['Dark Blue', 'Red', 'Purple', 'Light Blue', 'Dark Blue with White Lines', 'Green', 'Blue', 'Orange', 'Black', 'White'];
 let currentImage2 = 0;
 
 function hoverImage2() {
@@ -59,18 +67,24 @@ function unhoverImage2() {
 
 function onRightArrowClick2() {
     currentImage2++;
-    if(currentImage2 > 11) {
+    if(currentImage2 > 9) {
         currentImage2 = 0;
     }
     document.getElementById('image_tshirt_2').src = tshirt_images2[currentImage2];
+
+    let currentAlt = "Nike Sport T-Shirt";
+    document.getElementById('image_tshirt_2').setAttribute('alt', currentAlt + ' ' + tshirts_colors2[currentImage2]);
 }   
 
 function onLeftArrowClick2() {
     currentImage2--;
     if(currentImage2 < 0) {
-        currentImage2 = 2;
+        currentImage2 = 9;
     }
     document.getElementById('image_tshirt_2').src = tshirt_images2[currentImage2];
+
+    let currentAlt = "Nike Sport T-Shirt";
+    document.getElementById('image_tshirt_2').setAttribute('alt', currentAlt + ' ' + tshirts_colors2[currentImage2]);
 }
 
 
