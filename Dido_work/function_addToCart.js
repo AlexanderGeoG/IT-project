@@ -6,8 +6,11 @@ function AddtoCart(product, priceId, button_id) {
 
 
     document.getElementById(button_id).innerHTML = 'Added product';
+    document.getElementById(button_id).style.backgroundColor = '';
+    document.getElementById(button_id).style.backgroundColor = 'hsl(120, 80%, 21%)';
 
     setTimeout(() => {
         document.getElementById(button_id).innerHTML = 'Add to cart';
+        document.getElementById(button_id).style.backgroundColor = '';
     }, 1000)
 }
