@@ -1,3 +1,9 @@
+body{
+    background-color:#ffbb98;
+}
+
+
+
 #tshirt_offer1 {
     position: absolute;
     border: 2px solid black;
@@ -6,6 +12,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 1%;
+    background-color: #fbe0c3;
 }
 
 #image_tshirt_1 {
@@ -16,7 +23,7 @@
     padding-left: 27.5%;
     padding-right: 27.5%;
     border-radius: 4px;
-    background-color: antiquewhite;
+    background-color: rgb(223, 218, 212);
 }
 
 #add_to_card_tshirt_1 {
@@ -24,8 +31,8 @@
     font-size: 16px;
     width: 35%;
     height: 10%;
-    margin-top: 93%;
-    margin-left: 50%;  
+    bottom: 10px;
+    right: 5%;
     background-color: black;  
     color: white;
     cursor: pointer;
@@ -44,8 +51,8 @@
 
 #price_tshirt_1 {
     position: absolute;
-    margin-top: 95%;
-    margin-left: 27%;   
+    bottom: 10px; 
+    left: 5%;  
 }
 
 #right_arrow {
@@ -81,6 +88,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 34%;
+    background-color: #fbe0c3;
 }
 
 #image_tshirt_2 {
@@ -91,7 +99,7 @@
     padding-left: 31.5%;
     padding-right: 31.5%;
     border-radius: 4px;
-    background-color: antiquewhite;
+    background-color: rgb(223, 218, 212);
 }
 
 #add_to_card_tshirt_2 {
@@ -99,8 +107,8 @@
     font-size: 16px;
     width: 35%;
     height: 10%;
-    margin-top: 93%;
-    margin-left: 50%; 
+    bottom: 10px;
+    right: 5%;
     background-color: black;  
     color: white;
     cursor: pointer;
@@ -119,8 +127,8 @@
 
 #price_tshirt_2 {
     position: absolute;
-    margin-top:96%;
-    margin-left: 27%;   
+    bottom: 10px; 
+    left: 5%;   
 }
 
 #right_arrow2 {
@@ -157,6 +165,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 67%;
+    background-color: #fbe0c3;
 }
 
 #image_tshirt_3 {
@@ -167,7 +176,7 @@
     padding-left: 30%;
     padding-right: 30%;
     border-radius: 4px;
-    background-color: antiquewhite;
+    background-color: rgb(223, 218, 212);
 }
 
 #add_to_card_tshirt_3 {
@@ -175,8 +184,8 @@
     font-size: 16px;
     width: 35%;
     height: 10%;
-    margin-top: 93%;
-    margin-left: 50%;  
+    bottom: 10px;
+    right: 5%;
     background-color: black;  
     color: white;
     cursor: pointer;
@@ -195,8 +204,8 @@
 
 #price_tshirt_3 {
     position: absolute;
-    margin-top: 95%;
-    margin-left: 27%;   
+    bottom: 10px; 
+    left: 5%;
 }
 
 #right_arrow3 {
