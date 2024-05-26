@@ -70,3 +70,38 @@ function LeftArrow2() {
     }
     document.getElementById('image_sunglasses_2').src = images2[currentImage2];
 }
+
+let image_sunglasses_3 = document.getElementById('image_sunglasses_3');
+
+let right_arrow3 = document.getElementById('right_arrow3');
+
+let left_arrow3 = document.getElementById('left_arrow3');
+
+let images3 = ['../Images/sunglasses3.1.png ', '../Images/sunglasses3.2.png', '../Images/sunglasses3.3.png'];
+let currentImage3 = 0;
+
+function hoverImage3() {
+    right_arrow3.style.display = 'block';
+    left_arrow3.style.display = 'block';
+}
+
+function unhoverImage3() {
+    right_arrow3.style.display = 'none';
+    left_arrow3.style.display = 'none';
+}
+
+function RightArrow3() {
+    currentImage3++;
+    if(currentImage3 > 2) {
+        currentImage3 = 0;
+    }
+    document.getElementById('image_sunglasses_3').src = images3[currentImage3];
+}   
+
+function LeftArrow3() {
+    currentImage3--;
+    if(currentImage3 < 0) {
+        currentImage3 = 2;
+    }
+    document.getElementById('image_sunglasses_3').src = images3[currentImage3];
+}

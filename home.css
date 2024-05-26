@@ -1,154 +1,81 @@
-
-
-#instagrams a{
-    text-decoration: none;
-    display: block;   
-}
-
-#instagrams li{
-    list-style: none;
-    display: block;
-}
-
-
-
-#tshirts{
-    background-color:#ffdfa4;
-    min-height:250px;
-    border-radius:5px;
-    border:3px solid black;
-    margin:3%;
-}
-
-#TshirtImg{
-    max-height: 248px;
-    float:left;
-    margin:10px;
-    border-radius: 5px;
-    border:3px solid black;
-}
-
-#text1{
-    overflow:right;
-    padding:7.5%;
-    padding-left:50%;
-    color:white;
-    font-size:1.25em;
-}
-
-#pants{
-    background-color:#ffdfa4;
-    min-height:250px;
-    border-radius:5px;
-    border:3px solid black;
-    margin:3%;
-
-}
-
-#PantsImg{
-    max-height: 248px;
-    float:left;
-    margin:10px;
-    border-radius: 5px;
-    border:3px solid black;
-}
-
-#text2{
-    overflow:right;
-    padding:7.5%;
-    padding-left:50%;
-    color:white;
-    font-size:1.25em;
-}
-
-#sunglasses{
-    background-color:#ffdfa4;
-    min-height:250px;
-    border-radius:5px;
-    border:3px solid black;
-    margin:3%;
-}
-
-#SunglassesImg{
-    max-height: 248px;
-    float:left;
-    margin:10px;
-    border-radius: 5px;
-    border:3px solid black;
-}
-
-#text3{
-    overflow:right;
-    padding:7.5%;
-    padding-left:50%;
-    color:white;
-    font-size:1.25em;
-}
-
-#shoes{
-    background-color:#ffdfa4;
-    min-height:250px;
-    border-radius:5px;
-    border:3px solid black;
-    margin:3%;
-}
-
-#ShoesImg{
-    max-height: 248px;
-    float:left;
-    margin:10px;
-    border-radius: 5px;
-    border:3px solid black;
-}
-
-#text4{
-    overflow:right;
-    padding:7.5%;
-    padding-left:50%;
-    color:white;
-    font-size:1.25em;
-}
-
 body {
     margin: 0;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
+    background-color: #ffbb98;
 }
 
 nav {
     background-color: #ffdfa4;
-    padding: 10px 0; 
+    
+    
 }
 
 #container {
-    max-width: 900px;
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.menu {
-    padding: 0;
-    list-style-type: none;
+
+
+#offers {
     display: flex;
-    justify-content: center; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
 }
 
-.menu li {
-    border-left: 2px solid orange;
-    padding: 0 20px; 
-    text-align: center; 
+.offer {
+    background-color: #fbe0c3;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 1%;
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.menu li:first-child {
-    border-left: none; 
+.offer img {
+    max-height: 246px;
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
 }
 
-.menu li a {
-    display: block;
+.offer p {
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    font-size: 1.25em;
     padding: 10px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #ffdfa4;
+    padding: 20px 0;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#contact_us_heading {
+    margin: 0 0 10px;
+    
+}
+
+#instagrams {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#instagrams a {
     text-decoration: none;
-    color: hsl(60, 7%, 3%);
+    color: black;
+    display: block;
+    margin: 5px 0;
 }
-
-.menu li a:hover {
-    background-color: #ffc966; 
-}
-

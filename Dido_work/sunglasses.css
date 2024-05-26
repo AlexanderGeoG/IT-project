@@ -1,4 +1,6 @@
-
+body{
+    background-color:#ffbb98;
+}
 #sunglasses_offer1 {
     position: absolute;
     border: 2px solid black;
@@ -7,6 +9,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 1%;
+    background-color: #fbe0c3;
 }
 
 #image_sunglasses_1 {
@@ -79,6 +82,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 34%;
+    background-color: #fbe0c3;
 }
 
 #image_sunglasses_2 {
@@ -151,6 +155,7 @@
     height: 70%;
     margin-top: 44px;
     margin-left: 67%;
+    background-color: #fbe0c3;
 }
 
 #image_sunglasses_3 {

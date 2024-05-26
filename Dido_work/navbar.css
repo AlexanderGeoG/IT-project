@@ -5,7 +5,8 @@ body {
 
 nav {
     background-color: #ffdfa4;
-    padding: 10px 0; 
+    padding: 10px 0;
+    border: 2px solid black;
 }
 
 #container {
@@ -29,8 +30,6 @@ nav {
 .menu li:first-child {
     border-left: none; 
 }
-
-
 
 .menu li a {
     display: block;
